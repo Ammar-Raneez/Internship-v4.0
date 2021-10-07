@@ -16,6 +16,14 @@ public class ArrayAdder {
         return Helper.calculateTotal(this.firstArray, this.secondArray);
     }
 
+    public int[] getFirstArray() {
+        return firstArray;
+    }
+
+    public int[] getSecondArray() {
+        return secondArray;
+    }
+
     public static void main(String[] args) throws Exception {
         ArrayAdder arrayAdder = new ArrayAdder();
         arrayAdder.setFirstArray(Helper.getInput());
