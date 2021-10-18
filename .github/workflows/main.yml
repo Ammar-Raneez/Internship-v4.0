@@ -25,7 +25,9 @@ jobs:
           java-version: 1.8
     
       - name: Step 03 - Build Maven Project
-        run: mvn -B package --file pom.xml
+        run: |
+          cd warmup-exercise-oop
+          mvn -B package --file pom.xml
         
       - name: Step 04 - List the current directory
         run: ls -a
