@@ -6,7 +6,7 @@ import java.util.Arrays;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertArrayEquals;
 
-public class ArrayAddedTest {
+public class ArrayAdderTest {
     ArrayAdder arrayAdder;
 
     @Before
@@ -60,7 +60,7 @@ public class ArrayAddedTest {
 
     @Test
     public void testFGetNewArray() {
-        this.arrayAdder.setFirstArray(new int[] {1, 2, 3});
+        this.arrayAdder.setFirstArray(new int[] {1, 2});
         this.arrayAdder.setSecondArray(new int[] {3, 4, 5});
 
         int[] total = null;
