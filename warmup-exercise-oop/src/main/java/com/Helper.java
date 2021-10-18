@@ -1,3 +1,5 @@
+package main.java.com;
+
 import java.util.Scanner;
 
 class Helper {

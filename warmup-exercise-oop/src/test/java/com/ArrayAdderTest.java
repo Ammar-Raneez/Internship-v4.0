@@ -1,3 +1,6 @@
+package test.java.com;
+
+import main.java.com.ArrayAdder;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.mcnz.rps</groupId>
+    <groupId>com</groupId>
     <artifactId>arrayAdder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
