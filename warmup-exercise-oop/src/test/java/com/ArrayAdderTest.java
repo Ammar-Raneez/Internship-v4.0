@@ -63,7 +63,7 @@ public class ArrayAdderTest {
 
     @Test
     public void testFGetNewArray() {
-        this.arrayAdder.setFirstArray(new int[] {1, 2});
+        this.arrayAdder.setFirstArray(new int[] {1, 2, 3});
         this.arrayAdder.setSecondArray(new int[] {3, 4, 5});
 
         int[] total = null;

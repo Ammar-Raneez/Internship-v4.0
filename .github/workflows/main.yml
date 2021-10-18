@@ -23,8 +23,9 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-    
-      - name: Step 03 - Build Maven Project
+
+      # build and run tests
+      - name: Step 03 - Build & Run Tests
         run: |
           cd warmup-exercise-oop
           mvn -B package --file pom.xml
