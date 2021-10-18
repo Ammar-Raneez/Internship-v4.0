@@ -34,5 +34,5 @@ jobs:
         
       - name: Step 05 - List the target directory
         run: |
-          cd target
+          cd warmup-exercise-oop/target
           ls -a
