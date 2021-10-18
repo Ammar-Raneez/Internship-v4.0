@@ -1,4 +1,5 @@
 # Internship-v4.0
+<img src="https://github.com/Ammar-Raneez/Internship-v4.0/workflows/Java%20ArrayAdder%20CI/badge.svg" alt="badge" />
 
 ## Exercises
 #[Warmup exercise](https://github.com/Ammar-Raneez/Internship-v4.0/tree/main/warmup-exercise)
