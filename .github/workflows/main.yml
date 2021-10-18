@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Step 00 - checkout main branch from GitHub
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       
       - name: Step 01 - Begin
         run: |
