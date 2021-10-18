@@ -1,0 +1,40 @@
+name: Java ArrayAdder CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step 00 - checkout main branch from GitHub
+      - uses: actions/checkout@v2
+      
+      - name: Step 01 - Begin
+        run: |
+          echo Lets get started with this build.
+
+      # setup JDK       
+      - name: Step 02 - Setup JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+    
+      - name: Step 03 - Build Maven Project
+        run: |
+          cd warmup-exercise-oop
+          mvn -B package --file pom.xml
+        
+      - name: Step 04 - List the current directory
+        run: ls -a
+        
+      - name: Step 05 - List the target directory
+        run: |
+          cd target
+          ls -a
