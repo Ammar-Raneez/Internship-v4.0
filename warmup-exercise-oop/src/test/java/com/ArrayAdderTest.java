@@ -64,7 +64,7 @@ public class ArrayAdderTest {
     @Test
     public void testFGetNewArray() {
         this.arrayAdder.setFirstArray(new int[] {1, 2, 3});
-        this.arrayAdder.setSecondArray(new int[] {3, 4, 5});
+        this.arrayAdder.setSecondArray(new int[] {4, 5, 6});
 
         int[] total = null;
         try {
@@ -74,7 +74,7 @@ public class ArrayAdderTest {
             fail("ERROR] --> Array total is expected");
         }
 
-        assertArrayEquals(new int[] {4, 6, 8}, total);
+        assertArrayEquals(new int[] {5, 7, 9}, total);
         System.out.println("[SUCCESS] --> Test E Passed");
     }
 }
