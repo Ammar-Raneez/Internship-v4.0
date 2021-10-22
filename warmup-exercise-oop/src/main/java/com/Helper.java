@@ -26,7 +26,7 @@ class Helper {
         try {
             validateLength(firstArray, secondArray);
             int[] totalArray = new int[firstArray.length];
-            for (int i = 0; i < firstArray.length; i++) {
+            for (int i = 0; i <= firstArray.length; i++) {
                 totalArray[i] = firstArray[i] + secondArray[i];
             }
 
